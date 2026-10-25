@@ -3,7 +3,7 @@ class Rectangulo extends Figura {
     private double altura;
 
     public Rectangulo(String color, double base, double altura) {
-        super(color); // Llama al constructor de la clase padre
+        super(color); 
         this.base = base;
         this.altura = altura;
     }
